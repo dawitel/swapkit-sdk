@@ -1,0 +1,10 @@
+# API snapshot output (may contain sensitive data)
+scripts/snapshots/
+
+# Example env (API keys)
+examples/.env
+
+# Build and coverage
+coverage.out
+coverage.html
+*.test

@@ -117,6 +117,10 @@ if err != nil {
 }
 ```
 
+## Examples
+
+Runnable examples are in [`examples/`](examples/): quote+swap flow, providers and tokens, price lookup, swap discovery, and track. Set `SWAPKIT_API_KEY` and run e.g. `go run ./examples/quote_swap`. See [examples/README.md](examples/README.md).
+
 ## Development
 
 - `make build` – build all packages  
@@ -133,4 +137,3 @@ Unit tests use `httptest.Server` only; no live API calls. Integration tests agai
 - [SwapKit documentation](https://docs.swapkit.dev/)
 - [SwapKit API reference](https://api.swapkit.dev/docs/)
 - [Register for an API key](https://dashboard.swapkit.dev/)
-# swapkit-sdk
